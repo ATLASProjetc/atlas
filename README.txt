@@ -1,13 +1,10 @@
 
 TITLE: 
-Education - 100% Fully Responsive Free HTML5 Bootstrap Template
+Projeto Atlas
 
 AUTHOR:
-DESIGNED & DEVELOPED by FreeHTML5.co
+DESENVOLVIMENTO: Gabriel Smanioto
 
-Website: http://freehtml5.co/
-Twitter: http://twitter.com/fh5co
-Facebook: http://facebook.com/fh5co
 
 
 CREDITS:
