@@ -1,0 +1,752 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Education &mdash; Free Website Template, Free HTML5 Template by freehtml5.co</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Free HTML5 Website Template by freehtml5.co" />
+	<meta name="keywords"
+		content="free website templates, free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive" />
+	<meta name="author" content="freehtml5.co" />
+
+	<!-- 
+	//////////////////////////////////////////////////////
+
+	FREE HTML5 TEMPLATE 
+	DESIGNED & DEVELOPED by FreeHTML5.co
+		
+	Website: 		http://freehtml5.co/
+	Email: 			info@freehtml5.co
+	Twitter: 		http://twitter.com/fh5co
+	Facebook: 		https://www.facebook.com/fh5co
+
+	//////////////////////////////////////////////////////
+	 -->
+
+	<!-- Facebook and Twitter integration -->
+	<meta property="og:title" content="" />
+	<meta property="og:image" content="" />
+	<meta property="og:url" content="" />
+	<meta property="og:site_name" content="" />
+	<meta property="og:description" content="" />
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
+
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400" rel="stylesheet">
+
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+
+	<!-- Magnific Popup -->
+	<link rel="stylesheet" href="css/magnific-popup.css">
+
+	<!-- Owl Carousel  -->
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+	<!-- Flexslider  -->
+	<link rel="stylesheet" href="css/flexslider.css">
+
+	<!-- habitat -->
+	<link rel="stylesheet" href="css/habitat.css">
+
+	<!-- Theme style  -->
+	<link rel="stylesheet" href="css/style.css">
+	<style>
+		.services {
+			transition: transform 0.2s cubic-bezier(.4, 2, .3, 1), box-shadow 0.2s;
+		}
+
+		.services:hover {
+			transform: translateY(-10px) scale(1.03);
+			box-shadow: 0 8px 24px rgba(0, 0, 0, 0.10);
+			z-index: 2;
+		}
+	</style>
+
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+
+</head>
+
+<body>
+
+	<div class="fh5co-loader"></div>
+
+	<div id="page">
+		<nav class="fh5co-nav" role="navigation" id="custom-navbar"
+			style="background: #000000; position: relative; z-index: 1002;">
+			<div class="top-menu">
+				<div class="container">
+					<div class="row" style="display: flex; align-items: center;">
+						<div class="col-xs-2" style="display: flex; align-items: center;">
+							<div id="fh5co-logo">
+								<a href="index.html" class="logo-link">
+									<img src="images/Logo_Universal.png" alt="Logo" class="logo-img" />
+									<span class="logo-text" style="color: #9f3fcc;">Atlas</span>
+									<i class="icon-study"></i>
+								</a>
+							</div>
+						</div>
+						<div class="col-xs-10 text-right menu-1"
+							style="position: relative; display: flex; align-items: center; justify-content: flex-end;">
+							<ul class="main-menu-list" style="color: #ffffff; font-weight: 600; margin-bottom: 0;">
+								<li><a href="index.html" style="color: #ffffff;">Início</a></li>
+								<li><a href="alliance.html" style="color: #ffffff;">Projeto Alliance</a></li>
+								<li><a href="habitat.html" style="color: #ffffff;">Projeto Habitat</a></li>
+								<li><a href="about.html" style="color: #ffffff;">Sobre Nós</a></li>
+								<li><a href="equipe.html" style="color: #ffffff;">Equipe</a></li>
+								<li><a href="Atualizações.html" style="color: #ffffff;">Atualizações</a></li>
+							</ul>
+							<!-- Botão Hamburguer Customizado -->
+							<button id="custom-hamburger" aria-label="Abrir menu"
+								style="background: none; border: none; outline: none; display: none; margin-left: 16px; cursor: pointer; width: 40px; height: 40px; position: relative; z-index: 1003;">
+								<span class="bar"
+									style="display: block; width: 28px; height: 4px; margin: 6px auto; background: #fff; border-radius: 2px; transition: 0.3s;"></span>
+								<span class="bar"
+									style="display: block; width: 28px; height: 4px; margin: 6px auto; background: #fff; border-radius: 2px; transition: 0.3s;"></span>
+								<span class="bar"
+									style="display: block; width: 28px; height: 4px; margin: 6px auto; background: #fff; border-radius: 2px; transition: 0.3s;"></span>
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</nav>
+		<!-- Menu Lateral Offcanvas -->
+		<nav id="custom-offcanvas"
+			style="position: fixed; top: 0; right: -300px; width: 300px; height: 100vh; background: #000; color: #fff; z-index: 2000; box-shadow: -2px 0 16px rgba(0,0,0,0.15); transition: right 0.4s ease; display: flex; flex-direction: column;">
+			<button id="close-offcanvas" aria-label="Fechar menu"
+				style="background: none; border: none; color: inherit; font-size: 2em; align-self: flex-end; margin: 16px 16px 0 0; cursor: pointer;">&times;</button>
+			<ul
+				style="list-style: none; padding: 32px 24px; margin: 0; flex: 1; display: flex; flex-direction: column; gap: 24px;">
+				<li><a href="index.html" style="color: inherit; font-size: 1.2em; text-decoration: none;">Início</a>
+				</li>
+				<li><a href="alliance.html" style="color: inherit; font-size: 1.2em; text-decoration: none;">Projeto
+						Alliance</a></li>
+				<li><a href="habitat.html" style="color: inherit; font-size: 1.2em; text-decoration: none;">Projeto
+						Habitat</a></li>
+				<li><a href="about.html" style="color: inherit; font-size: 1.2em; text-decoration: none;">Sobre Nós</a>
+				</li>
+				<li><a href="equipe.html" style="color: inherit; font-size: 1.2em; text-decoration: none;">Equipe</a>
+				</li>
+				<li><a href="Atualizações.html"
+						style="color: inherit; font-size: 1.2em; text-decoration: none;">Atualizações</a></li>
+			</ul>
+		</nav>
+		<style>
+			/* Esconde o menu lateral e o botão hamburguer em telas grandes */
+			@media (max-width: 991px) {
+				#custom-hamburger {
+					display: block !important;
+				}
+
+				.main-menu-list {
+					display: none !important;
+				}
+			}
+
+			@media (min-width: 992px) {
+				#custom-hamburger {
+					display: none !important;
+				}
+
+				.main-menu-list {
+					display: flex !important;
+				}
+			}
+
+			/* Animação do menu lateral aberto */
+			#custom-offcanvas.open {
+				right: 0 !important;
+			}
+		</style>
+
+		<aside id="fh5co-hero" style="min-height: 100vh; height: 100vh; width: 100vw; overflow: hidden;">
+			<div class="flexslider" style="min-height: 100vh; height: 100vh; width: 100vw;">
+				<ul class="slides" style="min-height: 100vh; height: 100vh; width: 100vw;">
+					<li
+						style="background-image: url(images/img_bg_1.jpg); min-height: 100vh; height: 100vh; width: 100vw; background-size: cover; background-position: center;">
+						<div class="overlay-gradient"></div>
+						<div class="container">
+							<div class="row">
+								<div class="col-md-8 col-md-offset-2 text-center slider-text">
+									<div class="slider-text-inner">
+										<h1
+											style="font-family: 'SF Pro Display', 'San Francisco', 'Roboto', 'Arial', sans-serif; font-weight: bold; font-size: 4em; background: linear-gradient(90deg, #8c52ff 0%, #c471ed 50%, #f9a857 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; color: transparent; letter-spacing: -1px;">
+											Criado para transformar.</h1>
+										<h2>Conheça o Projeto Atlas. Acompanhe também em <a
+												href="https://www.instagram.com/projetoatlasoficial?utm_source=ig_web_button_share_sheet&igsh=MXg5NTZ4djVnYm0wdg=="
+												target="_blank">nosso instagram</a></h2>
+										<p><a class="btn btn-primary btn-lg" href="about.html"
+												style="background: linear-gradient(90deg, #8c52ff 0%, #c471ed 50%, #f9a857 100%); border: none; color: #fff;">Sobre
+												a Atlas</a></p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li
+						style="background: #000; min-height: 100vh; height: 100vh; width: 100vw; background-size: cover; background-position: center;">
+						<div class="overlay-gradient"></div>
+						<div class="container">
+							<div class="row">
+								<div class="col-md-8 col-md-offset-2 text-center slider-text">
+									<div class="slider-text-inner">
+										<h1
+											style="font-weight: 800; font-size: 4em; background: linear-gradient(90deg, #6dd5ed 0%, #8e2de2 50%, #000dff 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; text-fill-color: transparent;">
+											Simples. Poderoso. Seu.</h1>
+										<h2>A aliança perfeita, apenas um botão de distância</h2>
+										<p><a class="btn btn-primary btn-lg btn-learn" href="alliance.html">Explore o
+												Projeto Alliance</a>
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li
+						style="background-image: url(images/img_bg_3.jpg); min-height: 100vh; height: 100vh; width: 100vw; background-size: cover; background-position: center;">
+						<div class="overlay-gradient"></div>
+						<div class="container">
+							<div class="row">
+								<div class="col-md-8 col-md-offset-2 text-center slider-text">
+									<div class="slider-text-inner">
+										<h1
+											style="font-weight: 800; font-size: 3em; background: linear-gradient(90deg, #ed9a6d 0%, #ffd57a 50%, #000dff 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; text-fill-color: transparent;">
+											Preparados para o que precisar.</h1>
+										<h2>Estamos sempre aprendendo. Para entregar o que você ainda nem sabia que
+											precisava.</h2>
+										<p><a class="btn btn-primary btn-lg btn-learn" href="#">Conheça o time</a>
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</aside>
+
+		<div id="fh5co-course-categories">
+			<div class="container">
+				<div class="row animate-box">
+					<div class="col-md-6 col-md-offset-3 text-center fh5co-heading">
+						<h2>Como mudamos o mundo?</h2>
+						<p>Nossa está em constante está em constante treinamento para oferecer <br>
+							para você a melhor experiência.
+						</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-3 col-sm-6 text-center animate-box">
+						<div class="services"
+							style="background: #f5f5f5; border-radius: 8px; padding: 24px; box-shadow: 0 2px 8px rgba(0,0,0,0.03);">
+							<span class="icon">
+								<i class="icon-home-outline"></i>
+							</span>
+							<div class="desc">
+								<h3><a href="#">Bem-Vindo</a></h3>
+								<p>Sinta-se em casa. Nossa missão é lhe oferecer a melhor experiência. Fique a vontade
+									e descubra como transformamos realidades.
+								</p>
+							</div>
+						</div>
+						<div class="services"
+							style="background: #f5f5f5; border-radius: 8px; padding: 24px; box-shadow: 0 2px 8px rgba(0,0,0,0.03);">
+							<span class="icon">
+								<i class="icon-shop"></i>
+							</span>
+							<div class="desc">
+								<h3><a href="#">Negócios</a></h3>
+								<p>Pensamos como você, com visão de empresário! Queremos alavancar os
+									microempreendedores
+									e potencializar seu comércio.
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6 text-center animate-box">
+						<div class="services"
+							style="background: #f5f5f5; border-radius: 8px; padding: 24px; box-shadow: 0 2px 8px rgba(0,0,0,0.03);">
+							<span class="icon">
+								<i class="icon-heart4"></i>
+							</span>
+							<div class="desc">
+								<h3><a href="#">Carinho</a></h3>
+								<p>Desde suas raízes, até suas metas. Nosso diferencial é o cuidado em cada detalhe para
+									transformar seu sonho
+									em realidade, e com o seu jeitinho.
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6 text-center animate-box">
+						<div class="services"
+							style="background: #f5f5f5; border-radius: 8px; padding: 24px; box-shadow: 0 2px 8px rgba(0,0,0,0.03);">
+							<span class="icon">
+								<i class="icon-banknote"></i>
+							</span>
+							<div class="desc">
+								<h3><a href="#">Baixo Custo</a></h3>
+								<p>Nossos serviços e produtos são desenvolvidos pela nossa própria equipe,
+									por isso o custo é baixo mas com alta qualidade.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6 text-center animate-box">
+						<div class="services"
+							style="background: #f5f5f5; border-radius: 8px; padding: 24px; box-shadow: 0 2px 8px rgba(0,0,0,0.03);">
+							<span class="icon">
+								<i class="icon-lab2"></i>
+							</span>
+							<div class="desc">
+								<h3><a href="#">Pesquisa Constante</a></h3>
+								<p>Nossa equipe de pesquisa e desenvolvimento explora as mais
+									impossíveis ideias para seu negócio e as tornando realidade.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6 text-center animate-box">
+						<div class="services"
+							style="background: #f5f5f5; border-radius: 8px; padding: 24px; box-shadow: 0 2px 8px rgba(0,0,0,0.03);">
+							<span class="icon">
+								<i class="icon-photo"></i>
+							</span>
+							<div class="desc">
+								<h3><a href="#">Arte &amp; Mídia</a></h3>
+								<p>Sua essência deve te acompanhar em todo canto, por isso nossa Equipe de Design
+									transforma seu negócio em Identidade Visual.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6 text-center animate-box">
+						<div class="services"
+							style="background: #f5f5f5; border-radius: 8px; padding: 24px; box-shadow: 0 2px 8px rgba(0,0,0,0.03);">
+							<span class="icon">
+								<i class="icon-world"></i>
+							</span>
+							<div class="desc">
+								<h3><a href="#">Tecnologias</a></h3>
+								<p>Inteligência Artificial, facilidade de acesso ou eficiência? Proporcionamos qualidade
+									e
+									tecnologia para cada canto do seu negócio, não só na web.
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6 text-center animate-box">
+						<div class="services"
+							style="background: #f5f5f5; border-radius: 8px; padding: 24px; box-shadow: 0 2px 8px rgba(0,0,0,0.03);">
+							<span class="icon">
+								<i class="icon-bubble3"></i>
+							</span>
+							<div class="desc">
+								<h3><a href="#">Comunicação</a></h3>
+								<p>Limpa, clara e objetiva. Nossos profissionais estão sempre a disposição, acompanhando
+									cada passo do seu negócio
+									para lhe proporcionar a melhor experiência.</p>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="fh5co-counter" class="fh5co-counters"
+			style="background: linear-gradient(135deg, #8e2de2 0%, #ff6a00 100%);" data-stellar-background-ratio="0.5">
+			<div class="overlay"></div>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 col-md-offset-3 text-center fh5co-heading">
+						<h2 style="color: #fff;">Nossas metas para 2026</h2>
+						<p>Pensamos alto, e vamos chegar lá! Dê uma olhadinha em quantos irão participar da Atlas
+						</p>
+					</div>
+					<div class="col-md-10 col-md-offset-1">
+						<div class="row">
+							<div class="col-md-3 col-sm-6 text-center animate-box">
+								<span class="icon"><i class="icon-world"></i></span>
+								<span class="fh5co-counter js-counter" data-from="0" data-to="5000" data-speed="5000"
+									data-refresh-interval="50"></span>
+								<span class="fh5co-counter-label">Participantes do Habitat</span>
+							</div>
+							<div class="col-md-3 col-sm-6 text-center animate-box">
+								<span class="icon"><i class="icon-banknote"></i></span>
+								<span class="fh5co-counter js-counter" data-from="0" data-to="100" data-speed="5000"
+									data-refresh-interval="50"></span>
+								<span class="fh5co-counter-label">Comércios Impactados</span>
+							</div>
+							<div class="col-md-3 col-sm-6 text-center animate-box">
+								<span class="icon"><i class="icon-head"></i></span>
+								<span class="fh5co-counter js-counter" data-from="0" data-to="50" data-speed="5000"
+									data-refresh-interval="50"></span>
+								<span class="fh5co-counter-label">+50 Parceiros</span>
+							</div>
+							<div class="col-md-3 col-sm-6 text-center animate-box">
+								<span class="icon"><i class="icon-home-outline"></i></span>
+								<span class="fh5co-counter js-counter" data-from="0" data-to="40" data-speed="5000"
+									data-refresh-interval="50"></span>
+								<span class="fh5co-counter-label">Escolas Contribuintes</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="fh5co-Atualizações">
+			<div class="container">
+				<div class="row animate-box">
+					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+						<h2>Primeiros Passos</h2>
+						<p>Saiba quais foram nossos primeiros passos rumo a trasnformação</p>
+					</div>
+				</div>
+				<div class="row row-padded-mb">
+					<div class="col-md-4 animate-box">
+						<div class="fh5co-event">
+							<div class="date text-center"><span>14<br>Maio</span></div>
+							<h3><a href="#">Construção da Atlas junto com os melhores.</a></h3>
+							<p>O Projeto Atlas
+								está sempre em busca de oferecer as melhores experiências, por isso o desenvolvimento,
+								mentoria, auxilio e capacitação da nossa equipe foi construido com grandes mentes dos
+								negócios!
+							</p>
+							<p><a href="#">Saiba Mais</a></p>
+						</div>
+					</div>
+					<div class="col-md-4 animate-box">
+						<div class="fh5co-event">
+							<div class="date text-center"><span>27<br>Jun</span></div>
+							<h3><a href="#">Projeto Habitat com a Diretoria de Ensino</a></h3>
+							<p>O Projeto Habitat está sendo desenvolvido e será aplicado nas escolas com o auxilio da
+								Diretoria de Ensinino
+								Campinas Oeste com apresentação na Unicap de Portas Abertas.
+							</p>
+							<p><a href="#">Saiba Mais</a></p>
+						</div>
+					</div>
+					<div class="col-md-4 animate-box">
+						<div class="fh5co-event">
+							<div class="date text-center"><span>19<br>Jul</span></div>
+							<h3><a href="#">Presença na Expo Favela São Paulo</a></h3>
+							<p>Nossa Primeira Grande Conquista! Apresentaremos nosso projeto na Expo Favela São Paulo.
+							</p>
+							<p><a href="#">Saiba Mais</a></p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-4 col-md-4">
+						<div class="fh5co-Atualizações animate-box">
+							<a href="#" class="Atualizações-img-holder"
+								style="background-image: url(images/AURA_logo.png);"></a>
+							<div class="Atualizações-text">
+								<h3><a href="#">Eficiência e Inteligência</a></h3>
+								<span class="posted_on">Alex Mendes</span>
+								<p>"O tempo é único e valioso. Por isso estamos desenvolvendo a A.U.R.A, uma IA pensada
+									para
+									transformar tempo em dinheiro".</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4">
+						<div class="fh5co-Atualizações animate-box">
+							<a href="#" class="Atualizações-img-holder"
+								style="background-image: url(images/VR_Image.png);"></a>
+							<div class="Atualizações-text">
+								<h3><a href="#">Evoluímos todos os dias.</a></h3>
+								<span class="posted_on">Raydson Silva</span>
+								<p>"Utilizamos das mais variadas tecnologias, cada uma elaborada e desenvolvida para
+									suprir suas necessidades".</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4">
+						<div class="fh5co-Atualizações animate-box">
+							<a href="#" class="Atualizações-img-holder"
+								style="background-image: url(images/falando_em_valores.jpg);"></a>
+							<div class="Atualizações-text">
+								<h3><a href="#">Valores que Cultivamos</a></h3>
+								<span class="posted_on">Gabriel Smanioto</span>
+								<p>"Sua história, sua essência, seu brilho. Estamos sempre em função de transformar
+									sonhos em realidades".</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="fh5co-habitat" class="fh5co-bg-section">
+			<div class="container">
+				<div class="row animate-box">
+					<div class="col-md-6 col-md-offset-3 text-center fh5co-heading">
+						<h2>Planos Base</h2>
+						<p>Encontre um plano pré-configurado.<br> Caso queira um atendimento personalizado ou uma visita
+							em
+							seu negócio, contate-nos.</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="habitat habitat--rabten">
+						<div class="col-md-4 animate-box">
+							<div class="habitat__item">
+								<div class="wrap-price">
+									<!-- <div class="icon icon-user2"></div> -->
+									<h3 class="habitat__title">Start</h3>
+									<!-- <p class="habitat__sentence">Single user license</p> -->
+								</div>
+								<div class="habitat__price">
+									<span class="habitat__anim habitat__anim--2">
+										<span class="habitat__period">Pagamento Mensal</span>
+									</span>
+								</div>
+								<div class="wrap-price">
+									<ul class="habitat__feature-list">
+										<li class="habitat__feature">Gestão de Redes Sociais</li>
+										<li class="habitat__feature">Integração com Meta Business</li>
+										<li class="habitat__feature">Ampiação de Visibilidade</li>
+										<li class="habitat__feature">Site Base</li>
+										<li class="habitat__feature">Catálogo/Cardápio Online</li>
+										<li class="habitat__feature">Suporte Online</li>
+									</ul>
+									<!-- <button class="habitat__action">Escolher Plano</button> -->
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 animate-box">
+							<div class="habitat__item">
+								<div class="wrap-price">
+									<!-- <div class="icon icon-store"></div> -->
+									<h3 class="habitat__title">Performace</h3>
+									<!-- <p class="habitat__sentence">Up to 5 users</p> -->
+								</div>
+								<div class="habitat__price">
+									<span class="habitat__anim habitat__anim--2">
+										<span class="habitat__period">Pagamento Mensal</span>
+									</span>
+								</div>
+								<div class="wrap-price">
+									<ul class="habitat__feature-list">
+										<li class="habitat__feature">Plano Start+</li>
+										<li class="habitat__feature">Site Personalizado</li>
+										<li class="habitat__feature">Loja Virtual Integrada</li>
+										<li class="habitat__feature">Consultoria Estratégica</li>
+										<li class="habitat__feature">Suporte Prioritário</li>
+										<li class="habitat__feature">Gestão de Redes Sociais e Marketing</li>
+									</ul>
+									<!-- <button class="habitat__action">Escolher Plano</button> -->
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 animate-box">
+							<div class="habitat__item">
+								<div class="wrap-price">
+									<!-- <div class="icon icon-home2"></div> -->
+									<h3 class="habitat__title">Business</h3>
+									<!-- <p class="habitat__sentence">Unlimited users</p> -->
+								</div>
+								<div class="habitat__price">
+									<span class="habitat__anim habitat__anim--2">
+										<span class="habitat__period">Pagamento Mensal/Anual</span>
+									</span>
+								</div>
+								<div class="wrap-price">
+									<ul class="habitat__feature-list">
+										<li class="habitat__feature">Performace+</li>
+										<li class="habitat__feature">Integração de Sistemas Inteligentes</li>
+										<li class="habitat__feature">Painel de Gestão Digital</li>
+										<li class="habitat__feature">Automação de Atendimento</li>
+										<li class="habitat__feature">Sites com funcionalidades avançadas</li>
+										<li class="habitat__feature">Acompanhamneto e suporte minuciosos </li>
+										<li class="habitat__feature">Suporte Presencial</li>
+									</ul>
+									<!-- <button class="habitat__action">Escolher Plano</button> -->
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="fh5co-register" style="background-image: url(images/img_bg_2.jpg);">
+			<div class="overlay"></div>
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 animate-box">
+					<div class="date-counter text-center">
+						<h2>Entre em contato e tenha um atendimento Business por tempo limitado!</h2>
+						<h3>Tempo Restante:</h3>
+						<div class="simply-countdown simply-countdown-one"></div>
+						<p><strong>Corre que ainda dá tempo!</strong></p>
+						<p><a href="https://wa.me/message/RUBTYNSZGHPBO1" class="btn btn-primary btn-lg btn-reg">Entrar
+								em Contato</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="fh5co-gallery" class="fh5co-bg-section">
+			<div class="row text-center">
+				<h2><span>Algumas fotinhas</span></h2>
+			</div>
+			<div class="row">
+				<div class="col-md-3 col-padded">
+					<a href="#" class="gallery" style="background-image: url(images/lousa_projeto_habitat.jpg);"></a>
+				</div>
+				<div class="col-md-3 col-padded">
+					<a href="#" class="gallery" style="background-image: url(images/atlas_na_innovation_week.jpg);"></a>
+				</div>
+				<div class="col-md-3 col-padded">
+					<a href="#" class="gallery" style="background-image: url(images/equipe\ trabalhando.jpg);"></a>
+				</div>
+				<div class="col-md-3 col-padded">
+					<a href="#" class="gallery" style="background-image: url(images/Alliance_logo.png);"></a>
+				</div>
+			</div>
+		</div>
+
+		<footer id="fh5co-footer" role="contentinfo" style="background-image: url(images/img_bg_4.jpg);">
+			<div class="overlay"></div>
+			<div class="container">
+				<div class="row row-pb-md">
+					<div class="col-md-3 fh5co-widget">
+						<h3>Sobre a Atlas</h3>
+						<p>Viemos para transformar, para alavancar e para mostrar o poder do nosso Brasil! Do corre do
+							dia a
+							dia, até as grandes empresas, estaremos aqui pra fazer a diferença.
+						</p>
+					</div>
+					<div class="col-md-2 col-sm-4 col-xs-6 col-md-push-1 fh5co-widget">
+						<h3>Explore!</h3>
+						<ul class="fh5co-footer-links">
+							<li><a href="alliance.html">Projeto Alliance</a></li>
+							<li><a href="habitat.html">Projeto Habitat</a></li>
+							<li><a href="about.html">Sobre Nós</a></li>
+							<li><a href="equipe.html">Equipe</a></li>
+							<li><a href="Atualizações.html">Atualizações</a></li>
+						</ul>
+					</div>
+
+					<div class="col-md-2 col-sm-4 col-xs-6 col-md-push-1 fh5co-widget">
+						<h3>Social & Contatos</h3>
+						<ul class="fh5co-footer-links">
+							<li><a href="https://wa.me/message/RUBTYNSZGHPBO1" style="white-space: nowrap;">Whatsapp</a>
+							</li>
+							<li><a
+									href="https://www.instagram.com/projetoatlasoficial?igsh=MXg5NTZ4djVnYm0wdg==">Instagram</a>
+							</li>
+							<li><a href="https://www.facebook.com/profile.php?id=61578080387544">Facebook</a></li>
+							<li><a href="https://www.linkedin.com/in/projeto-atlas-6a3887375/">LinkedIn</a></li>
+							<li><a href="https://github.com/ATLASProjetc">GitHub</a></li>
+						</ul>
+					</div>
+
+				</div>
+
+				<div class="row copyright">
+					<div class="col-md-12 text-center">
+						<p>
+							<small class="block">&copy; 2024 Projeto Atlas.</small>
+							<small class="block">Designed by FreeHTML5.co .</a> Desenvolvido por Gabriel
+								Smanioto</small>
+						</p>
+					</div>
+				</div>
+
+			</div>
+		</footer>
+	</div>
+
+	<div class="gototop js-top">
+		<a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
+	</div>
+
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Stellar Parallax -->
+	<script src="js/jquery.stellar.min.js"></script>
+	<!-- Carousel -->
+	<script src="js/owl.carousel.min.js"></script>
+	<!-- Flexslider -->
+	<script src="js/jquery.flexslider-min.js"></script>
+	<!-- countTo -->
+	<script src="js/jquery.countTo.js"></script>
+	<!-- Magnific Popup -->
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/magnific-popup-options.js"></script>
+	<!-- Count Down -->
+	<script src="js/simplyCountdown.js"></script>
+	<!-- Main -->
+	<script src="js/main.js"></script>
+	<script>
+		// Remove menu offcanvas antigo e botão hamburguer antigo se existirem
+		document.addEventListener('DOMContentLoaded', function () {
+			var oldMenu = document.getElementById('fh5co-offcanvas');
+			if (oldMenu) oldMenu.remove();
+			var oldToggles = document.querySelectorAll('.js-fh5co-nav-toggle');
+			oldToggles.forEach(function (btn) { btn.remove(); });
+		});
+	</script>
+	<script src="js/custom-menu.js"></script>
+	<script>
+		// Define a data final: 21/07/2025 às 23:59
+		var d = new Date(2025, 6, 21, 23, 59, 0);
+
+		simplyCountdown('.simply-countdown-one', {
+			year: d.getFullYear(),
+			month: d.getMonth() + 1,
+			day: d.getDate(),
+			hours: d.getHours(),
+			minutes: d.getMinutes(),
+			seconds: d.getSeconds(),
+			words: { // Tradução para português
+				dias: 'Dias',
+				hours: 'Horas',
+				minutes: 'Minutos',
+				seconds: 'Segundos',
+				pluralLetter: ''
+			}
+		});
+
+		$('#simply-countdown-losange').simplyCountdown({
+			year: d.getFullYear(),
+			month: d.getMonth() + 1,
+			day: d.getDate(),
+			hours: d.getHours(),
+			minutes: d.getMinutes(),
+			seconds: d.getSeconds(),
+			enableUtc: false,
+			words: {
+				dias: 'Dias',
+				hours: 'Horas',
+				minutes: 'Minutos',
+				seconds: 'Segundos',
+				pluralLetter: ''
+			}
+		});
+	</script>
+</body>
+
+</html>
